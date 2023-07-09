@@ -1,0 +1,38 @@
+ 1032  mkdir git-majonez
+ 1033  cd git-majonez/
+ 1034  git init
+ 1035  touch main.cpp
+ 1036  gedit main.cpp 
+ 1037  git add .
+ 1038  git commit -m"Initial commit"
+ 1039  gedit main.cpp 
+ 1040  git add .
+ 1041  git commit -m"Farewell changed"
+ 1042  git remote add origin https://github.com/Iosis713/git-majonez.git
+ 1043  git log
+ 1044  git push -u origin master
+ 1045  git checkout -b cs
+ 1046  git status
+ 1047  git log
+ 1048  git reset --hard e25217663396a814ebcfedfdf1d89953bc2f208e
+ 1049  git log
+ 1050  git reset --hard HEAD^
+ 1051  git log
+ 1052  gedit main.cpp 
+ 1053  git status
+ 1054  git add main.cpp 
+ 1055  git commit -m"Greetings"
+ 1056  git log
+ 1057  git push origin cs
+ 1058  git checkout master 
+ 1059  git branch
+ 1060  git merge cs
+ 1061  gedit main.cpp 
+ 1062  cat main.cpp 
+ 1063  git diff
+ 1064  git add main.cpp 
+ 1065  git commit -m"Merge branch 'cs'"
+ 1066  git log
+ 1067  history | tail -n50
+ 1068  history | tail -n37
+ 1069  history | tail -n38 > history.txt
